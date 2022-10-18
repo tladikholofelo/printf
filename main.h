@@ -75,7 +75,6 @@ int (*get_func(char c))(va_list, flag_t *, mod_t *);
 
 /* Sets flags */
 int get_flags(char elem, flag_t *);
-int get_width(const char *format, int *i, va_list list);
 
 /* Sets the modifiers */
 int get_modifier(char elem, mod_t *);
