@@ -74,7 +74,7 @@ char *convert(unsigned long num, int base, int lowercase);
 int (*get_func(char c))(va_list, flag_t *, mod_t *);
 
 /* Sets flags */
-int get_flags(const char *format, int *i)
+int get_flags(const char *format, int *i);
 
 /* Sets the modifiers */
 int get_modifier(char elem, mod_t *);
