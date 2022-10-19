@@ -7,8 +7,9 @@ under the control of a `format` string that specifies how subsequent arguments
 converted for output.
 
 ## Prototype
-
-`int _printf(const char *format, ...);`
+```c
+int _printf(const char *format, ...);
+````
 
 ### Return Value
 
