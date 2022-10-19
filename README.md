@@ -21,7 +21,7 @@ output error is encountered, the function returns `-1`.
 
 - All files coded on an Ubuntu 20.04 LTS machine with `gcc` using:
 ```c
-gcc -Wall -Werror -Wextra -pedantic *.c
+gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c
 ````
 - All files coded using the `Betty` style and checked using `betty-style.pl` and `betty-doc.pl`
 
