@@ -1,4 +1,4 @@
-.TH _PRINTF 3 "19 October 2022" "0x11 C. - printf"
+.TH _PRINTF 3 "19 October 2022" "ALX Project 0x11 C. - printf"
 
 .SH NAME
 .B _printf\fR \- formatted output conversion
